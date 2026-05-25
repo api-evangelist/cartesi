@@ -1,0 +1,102 @@
+aid: cartesi
+name: Cartesi
+description: >-
+  Cartesi is a Linux-based optimistic rollup protocol that lets developers
+  build decentralized applications by running rich off-chain computation
+  inside a sandboxed Linux virtual machine. The core of the stack is the
+  Cartesi Machine, a deterministic RISC-V emulator that boots a real Linux
+  userland so dApps can be written in any language (Rust, Go, Python,
+  JavaScript/TypeScript, C++) using familiar libraries, then settle results
+  on Ethereum and other EVM chains through Cartesi Rollups smart contracts.
+  Cartesi Rollups 2.0 is the current major version, packaging an
+  application-specific rollup as the combination of the Cartesi Machine,
+  the Cartesi Rollups Node middleware (Rust + Go), and a set of Solidity
+  rollup contracts that handle settlement, consensus, and data availability.
+  The DAVE permissionless fraud-proof system provides Stage-2 trust
+  minimization, while the Cartesi CLI (the successor to Sunodo) packages
+  scaffolding, build, and local devnet workflows. Cartesi is stewarded by
+  The Cartesi Foundation and the CTSI token governs the network. Cartesi is
+  fully open source under Apache-2.0 and LGPL-3.0 licenses on
+  github.com/cartesi; there is no proprietary SaaS product, but the Rollups
+  Node ships several developer-facing surfaces — the Rollup HTTP API used
+  by application backends, the Inspect HTTP API for read-only queries from
+  frontends, a GraphQL reader for advance-state inputs / outputs / vouchers
+  / notices / reports, and a JSON-RPC node API for operations.
+type: Index
+position: Provider
+access: Open Source
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Blockchain
+  - Layer 2
+  - Optimistic Rollups
+  - Ethereum
+  - EVM
+  - RISC-V
+  - Linux
+  - Virtual Machine
+  - Cartesi Machine
+  - Rollups
+  - Fraud Proofs
+  - DAVE
+  - Smart Contracts
+  - Decentralized Applications
+  - Web3
+  - Open Source
+url: https://raw.githubusercontent.com/api-evangelist/cartesi/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://cartesi.io
+  - type: Documentation
+    url: https://docs.cartesi.io
+  - type: Architecture
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/architecture
+  - type: Concepts
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/concepts
+  - type: APIReference
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference
+  - type: RollupHTTPAPI
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/rollup/cartesi-rollup-http-api
+  - type: InspectHTTPAPI
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/inspect/inspect-state-http-api-for-cartesi-rollups
+  - type: JSONRPCAPI
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/api-reference/jsonrpc/overview
+  - type: CartesiMachine
+    url: https://docs.cartesi.io/cartesi-machine
+  - type: CLI
+    url: https://docs.cartesi.io/get-started/cli-commands
+  - type: Tutorials
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/tutorials/counter
+  - type: Deployment
+    url: https://docs.cartesi.io/cartesi-rollups/2.0/deployment/introduction
+  - type: GitHub
+    url: https://github.com/cartesi
+  - type: GitHubRepository
+    url: https://github.com/cartesi/rollups-node
+  - type: GitHubRepository
+    url: https://github.com/cartesi/machine-emulator
+  - type: GitHubRepository
+    url: https://github.com/cartesi/rollups-contracts
+  - type: GitHubRepository
+    url: https://github.com/cartesi/dave
+  - type: GitHubRepository
+    url: https://github.com/cartesi/cli
+  - type: Foundation
+    url: https://cartesi.io/foundation
+  - type: Blog
+    url: https://cartesi.io/blog
+  - type: Twitter
+    url: https://twitter.com/cartesiproject
+  - type: Discord
+    url: https://discord.gg/pfXMwXDDfW
+  - type: Reddit
+    url: https://www.reddit.com/r/cartesi
+  - type: YouTube
+    url: https://www.youtube.com/@Cartesiproject
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
