@@ -60,6 +60,17 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/cartesi/rollups-node/issues
+  - type: Releases
+    url: https://github.com/cartesi/rollups-node/releases
+  - type: CodeOfConduct
+    url: https://github.com/cartesi/rollups-node/blob/main/docs/code_of_conduct.md
+  - type: ContributionGuide
+    url: https://github.com/cartesi/rollups-node/blob/main/docs/contributing.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/cartesi/rollups-node/blob/main/LICENSE
   - type: DomainSecurity
     url: security/cartesi-domain-security.yml
   - type: Website
