@@ -1,1 +1,0 @@
-# Cartesi GraphQL API
