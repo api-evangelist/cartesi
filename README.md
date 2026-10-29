@@ -1,4 +1,4 @@
-# cartesi
+# Cartesi
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cartesi — Linux-based optimistic rollups with a RISC-V Cartesi Machine for off-chain dApp compute
+Cartesi is a Linux-based optimistic rollup protocol that lets developers build decentralized applications by running rich off-chain computation inside a sandboxed Linux virtual machine. The core of the stack is the Cartesi Machine, a deterministic RISC-V emulator that boots a real Linux userland so dApps can be written in any language (Rust, Go, Python, JavaScript/TypeScript, C++) using familiar libraries, then settle results on Ethereum and other EVM chains through Cartesi Rollups smart contracts. Cartesi Rollups 2.0 is the current major version, packaging an application-specific rollup as the combination of the Cartesi Machine, the Cartesi Rollups Node middleware (Rust + Go), and a set of Solidity rollup contracts that handle settlement, consensus, and data availability. The DAVE permissionless fraud-proof system provides Stage-2 trust minimization, while the Cartesi CLI (the successor to Sunodo) packages scaffolding, build, and local devnet workflows. Cartesi is stewarded by The Cartesi Foundation and the CTSI token governs the network. Cartesi is fully open source under Apache-2.0 and LGPL-3.0 licenses on github.com/cartesi; there is no proprietary SaaS product, but the Rollups Node ships several developer-facing surfaces — the Rollup HTTP API used by application backends, the Inspect HTTP API for read-only queries from frontends, a GraphQL reader for advance-state inputs / outputs / vouchers / notices / reports, and a JSON-RPC node API for operations.
+
+**Areas:** Blockchain · Layer 2 · Optimistic Rollups · Ethereum · EVM · RISC-V · Linux · Virtual Machines · Cartesi Machine · Rollup · Fraud Proofs · DAVE
+
+## Cartesi on APIs.io
+
+Everything profiled for Cartesi is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cartesi/](https://apis.io/providers/cartesi/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### GraphQL (1)
+
+GraphQL schemas.
+
+- [Moved to /providers/cartesi/](https://apis.io/graphqls/cartesi/cartesi-graphql/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cartesi Domain Security](https://apis.io/security/cartesi/cartesi-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cartesi.io)
+- [Documentation](https://docs.cartesi.io)
+- [API reference](https://docs.cartesi.io/cartesi-rollups/2.0/api-reference)
+- [Blog](https://cartesi.io/blog)
+
+## API Evangelist rating
+
+**Kin Score 17.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cartesi/](https://apis.io/providers/cartesi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cartesi: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cartesi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
